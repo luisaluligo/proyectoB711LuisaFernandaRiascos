@@ -65,7 +65,7 @@ public class Persona {
             
         }   MODIFICADO :*/
         
-        if (Character.toString(genero).matches("[FMI?]")) {
+        if (Character.toString(genero).matches("[FMI]")) {
               this.genero = genero;
         } else {
            System.out.println("Error, el género solo acepta los valores F, M, I. No se pudo asignar el genero.");
